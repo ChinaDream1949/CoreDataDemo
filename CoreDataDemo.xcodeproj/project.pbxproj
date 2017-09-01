@@ -14,6 +14,9 @@
 		CFC112401F57BB2400115E0B /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFC1123E1F57BB2400115E0B /* CoreDataDemo.xcdatamodeld */; };
 		CFC112421F57BB2400115E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFC112411F57BB2400115E0B /* Assets.xcassets */; };
 		CFC112451F57BB2400115E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC112431F57BB2400115E0B /* LaunchScreen.storyboard */; };
+		CFC1126D1F57D7D100115E0B /* V1.0_To_V1.2.xcmappingmodel in Sources */ = {isa = PBXBuildFile; fileRef = CFC1126C1F57D7D100115E0B /* V1.0_To_V1.2.xcmappingmodel */; };
+		CFC112721F57D7EA00115E0B /* Clothes+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC1126F1F57D7EA00115E0B /* Clothes+CoreDataProperties.m */; };
+		CFC112731F57D7EA00115E0B /* Clothes.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC112711F57D7EA00115E0B /* Clothes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,13 @@
 		CFC112411F57BB2400115E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFC112441F57BB2400115E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFC112461F57BB2400115E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC1124C1F57BC0700115E0B /* CoreDataDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		CFC1125D1F57D59900115E0B /* CoreDataDemo 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataDemo 2.xcdatamodel"; sourceTree = "<group>"; };
+		CFC1126C1F57D7D100115E0B /* V1.0_To_V1.2.xcmappingmodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcmappingmodel; path = V1.0_To_V1.2.xcmappingmodel; sourceTree = "<group>"; };
+		CFC1126E1F57D7EA00115E0B /* Clothes+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Clothes+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CFC1126F1F57D7EA00115E0B /* Clothes+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Clothes+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CFC112701F57D7EA00115E0B /* Clothes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clothes.h; sourceTree = "<group>"; };
+		CFC112711F57D7EA00115E0B /* Clothes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clothes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +56,7 @@
 			children = (
 				CFC112311F57BB2400115E0B /* CoreDataDemo */,
 				CFC112301F57BB2400115E0B /* Products */,
+				CFC1124C1F57BC0700115E0B /* CoreDataDemo-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +71,10 @@
 		CFC112311F57BB2400115E0B /* CoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CFC1126E1F57D7EA00115E0B /* Clothes+CoreDataProperties.h */,
+				CFC1126F1F57D7EA00115E0B /* Clothes+CoreDataProperties.m */,
+				CFC112701F57D7EA00115E0B /* Clothes.h */,
+				CFC112711F57D7EA00115E0B /* Clothes.m */,
 				CFC112351F57BB2400115E0B /* AppDelegate.h */,
 				CFC112361F57BB2400115E0B /* AppDelegate.m */,
 				CFC112381F57BB2400115E0B /* ViewController.h */,
@@ -67,6 +82,7 @@
 				CFC1123B1F57BB2400115E0B /* Main.storyboard */,
 				CFC112411F57BB2400115E0B /* Assets.xcassets */,
 				CFC112431F57BB2400115E0B /* LaunchScreen.storyboard */,
+				CFC1126C1F57D7D100115E0B /* V1.0_To_V1.2.xcmappingmodel */,
 				CFC112461F57BB2400115E0B /* Info.plist */,
 				CFC1123E1F57BB2400115E0B /* CoreDataDemo.xcdatamodeld */,
 				CFC112321F57BB2400115E0B /* Supporting Files */,
@@ -152,10 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC112721F57D7EA00115E0B /* Clothes+CoreDataProperties.m in Sources */,
 				CFC1123A1F57BB2400115E0B /* ViewController.m in Sources */,
 				CFC112401F57BB2400115E0B /* CoreDataDemo.xcdatamodeld in Sources */,
+				CFC1126D1F57D7D100115E0B /* V1.0_To_V1.2.xcmappingmodel in Sources */,
 				CFC112371F57BB2400115E0B /* AppDelegate.m in Sources */,
 				CFC112341F57BB2400115E0B /* main.m in Sources */,
+				CFC112731F57D7EA00115E0B /* Clothes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +286,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CoreDataDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.CoreDataDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreDataDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -278,10 +300,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CoreDataDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.CoreDataDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CoreDataDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -311,9 +335,10 @@
 		CFC1123E1F57BB2400115E0B /* CoreDataDemo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				CFC1125D1F57D59900115E0B /* CoreDataDemo 2.xcdatamodel */,
 				CFC1123F1F57BB2400115E0B /* CoreDataDemo.xcdatamodel */,
 			);
-			currentVersion = CFC1123F1F57BB2400115E0B /* CoreDataDemo.xcdatamodel */;
+			currentVersion = CFC1125D1F57D59900115E0B /* CoreDataDemo 2.xcdatamodel */;
 			path = CoreDataDemo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

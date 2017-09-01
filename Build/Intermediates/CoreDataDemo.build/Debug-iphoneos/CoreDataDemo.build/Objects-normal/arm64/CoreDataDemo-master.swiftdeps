@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "4941a2cffa8860b38e546726ca098746"
+build_time: [557465870, 703128000]
+inputs:
+  "/Users/ouyangqunfeng/Desktop/CoreDataDemo/Entity.swift": [557465863, 0]
